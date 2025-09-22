@@ -8,33 +8,43 @@
 </head>
 
 <body>
-    <header class="rectangular frame"><h1>Photography website</h1>
+    <header class="rectangular-frame"><h1>Photography website</h1>
     <nav>
-    <ul class="navigators">
-            <li><a href="navigatormodule">Home</a></li>
-            <li><a href="navigatormodule">About Me</a></li>
-            <li><a href="navigatormodule">Portfolio</a></li>
+        <ul class="navigators">
+            <li><a href="#">Home</a></li>
+            <li><a href="#About-section">About Me</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
         </ul>
+    </nav>
+    <div class="learn-more-button">
         <button>
-            Contact me
+            Learn More
         </button>
-         <p><span style="color: blue">Preview</span></p>
-    </nav></header>
+    </div>
+</header>
 
 <main>
-    <section class="About-section">
-        <h1>About</h1>
+    <section id="About-section">
+        <h1>About me</h1>
         <h2>I am Terrence</h2><br>
+        <img src="Test.png">
         <aside>
             <h3>Introduction</h3>
-            <p>Test</p>
+            <p>My name is Terrence. This is a project I am doing for the photography website assignment for Moringa School. </p>
         </aside>
     </section>
 
     <section class="Services">
         <h3>
-            Services I offer
+            My photography services
         </h3>
+        <ul class="Services">
+            <li>
+                <h4>Service name</h4>
+                <p>Service detail</p>
+                <img src="Test.png">
+            </li>
+        </ul>
     </section>
 
     <div class="main-container">
@@ -43,19 +53,19 @@
                 <h2>Featured Photos</h2>
                 <div class="featured-photo-grid">
                     <div class="featured-photo"><img src="Test.png"><details>
-                        <summary>Summary</summary>
+                        <summary>Summsary</summary>
                         Details about a photo
                     </details></div>
                     <div class="featured-photo"><img src="Test2.png"></div>
                 </div>
             </section>
 
-            <section class="Portfolio">
+            <section id="Portfolio">
                 <h2> Portfolio showcase</h2><br>
                 <button>
                     View All Works
                 </button>
-                <div class="regular photo-grid">
+                <div class="regular-photo-grid">
                     <div class="portfolio-card">
                         <h5>Card Title</h5>
                         <p>Description</p>
@@ -70,15 +80,15 @@
     </div>
 </main>
 
-<footer class="Footer section"> 
-    <div class="submit form">
+<footer class="Footer-section"> 
+    <div class="submit-form">
         <form>
             <label for="emaddr">Subscribe to receive emails: </label><br>
-            <input type="text" id="emaddr" name="emaddr"><br>
+            <input type="text"><br>
             <input type="submit" value="Submit">
         </form>
     </div>
-    <div class="Contact information">
+    <div class="Contact-information">
         <aside>
             <h3>Contact Information</h3>
             <p>
@@ -87,7 +97,7 @@
             </p>
         </aside>
     </div>
-    <p>All rights reserved</p>
+    <p>2025 Terrence Gift. All rights reserved.</p>
  </footer>
 </body>
 
