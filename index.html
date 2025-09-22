@@ -12,45 +12,82 @@
     <nav>
     <ul class="navigators">
             <li><a href="navigatormodule">Home</a></li>
+            <li><a href="navigatormodule">About Me</a></li>
             <li><a href="navigatormodule">Portfolio</a></li>
-            <li><a href="navigatormodule">About</a></li>
-            <li><a href="navigatormodule">Contact</a></li>
         </ul>
-         <p><span style="color: blue">Introductory paragraph:</span></p>
-         <p>Biography section</p>
+        <button>
+            Contact me
+        </button>
+         <p><span style="color: blue">Preview</span></p>
     </nav></header>
 
-    <section class="Actual Introduction">
-        <p>Introduction</p>
+<main>
+    <section class="About-section">
+        <h1>About</h1>
+        <h2>I am Terrence</h2><br>
+        <aside>
+            <h3>Introduction</h3>
+            <p>Test</p>
+        </aside>
     </section>
 
-    <div class="container">
-        <main class="box-frame">
-            <section class="photo-section">
+    <section class="Services">
+        <h3>
+            Services I offer
+        </h3>
+    </section>
+
+    <div class="main-container">
+        <section class="photo-section">
+            <section class="featured-photos">
                 <h2>Featured Photos</h2>
                 <div class="featured-photo-grid">
-                    <div class="featured-photo"><img src="Test.png"></div>
-                    <div class="featured-photo"><img src="Test2.png"></div>
-                </div>
-
-                <h2>Other Photos</h2>
-                <div class="regular photo-grid">
-                    <div class="featured-photo"><img src="Test.png"></div>
+                    <div class="featured-photo"><img src="Test.png"><details>
+                        <summary>Summary</summary>
+                        Details about a photo
+                    </details></div>
                     <div class="featured-photo"><img src="Test2.png"></div>
                 </div>
             </section>
-        </main>
+
+            <section class="Portfolio">
+                <h2> Portfolio showcase</h2><br>
+                <button>
+                    View All Works
+                </button>
+                <div class="regular photo-grid">
+                    <div class="portfolio-card">
+                        <h5>Card Title</h5>
+                        <p>Description</p>
+                        <figure>
+                            <img src="Test.png">
+                            <figcaption>Test</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+        </section>
     </div>
+</main>
 
 <footer class="Footer section"> 
-    <p>All rights reserved</p>
     <div class="submit form">
         <form>
-            <label for="emaddr">Subscribe to receive emails: </label></form><br>
+            <label for="emaddr">Subscribe to receive emails: </label><br>
             <input type="text" id="emaddr" name="emaddr"><br>
             <input type="submit" value="Submit">
         </form>
     </div>
+    <div class="Contact information">
+        <aside>
+            <h3>Contact Information</h3>
+            <p>
+                Email:<br>
+                Phone Number:<br>
+            </p>
+        </aside>
+    </div>
+    <p>All rights reserved</p>
  </footer>
 </body>
 
