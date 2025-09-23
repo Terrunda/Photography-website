@@ -1,0 +1,28 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #FFFAF0; /* Floral White */
+    color: #1E1E24; /* Raisin Black */
+    line-height: 1.6;
+}
+
+
+/* IDs */
+#About-section {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    padding: 4rem 2rem;
+    background: #fff;
+    margin: 2rem auto;
+    max-width: 1200px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+#About-section img {
+    max-width: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+}
