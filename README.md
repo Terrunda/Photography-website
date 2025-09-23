@@ -7,12 +7,12 @@
 
 ---
 
-## 🖼️ Project Design Notes
+## Project Design Notes
 - Light-themed layout with **Floral White** as the primary background.  
 - Navigation styled with **square borders** and aligned to the right.  
 - Accent highlights in **Penn Red** for calls-to-action and emphasis.  
 - **Raisin Black** and **Space Cadet** used for typography and contrast.  
-- **Sunset** tones provide warmth for highlights and hover effects.  
+- **Sunset** tones for highlights and hover effects.  
 
 ---
 
