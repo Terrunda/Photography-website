@@ -8,6 +8,8 @@
 
 ## Project design:
 ![Photo Design](/images/Photography%20website%20Project%20Design.png)
+**The project design draft was made on Figma by me.**
+Link: https://www.figma.com/design/b25o0yPaZuhWUuDKNDQWUF/Photography-website-Project-Design?t=One9MCsHYeSWtk7k-0
 
 ## Project Design Notes
 - Light-themed layout with **Floral White** as the primary background.  
