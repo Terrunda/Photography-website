@@ -141,6 +141,13 @@ main {
   object-fit: cover;
 }
 
+.Services-list h4 {
+  margin-bottom: 0px;
+}
+.Services-list p {
+  margin-top: 5px;
+}
+
 .featured-photos {
   margin-bottom: 64px;
 }
@@ -182,7 +189,7 @@ main {
   padding: 8px 16px;
   border: 2px solid #1E1E24;
   border-radius: 4px;
-  background: rgba (0,0,0,0);
+  background: rgba(0,0,0,0);
   margin-bottom: 20px;
   justify-content: right;
 }
@@ -198,6 +205,11 @@ main {
   padding: 32px;
   border-radius: 4px;
   transition: box-shadow 0.2s ease;
+}
+
+.portfolio-card h5 {
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .portfolio-card img {
@@ -224,6 +236,8 @@ main {
   margin-bottom: 5px;
   font-size: 30px;
   font-weight: 600;
+  text-align: center;
+  border-bottom: 2px solid #e5e5e5;
 }
 
 .Contact-information p {
@@ -233,6 +247,26 @@ main {
 }
 
 .Footer-section p {
-  font-weight: 400px;
+  font-size: 18px;
+  font-weight: 400;
   text-align: center;
+}
+
+.submit-form {
+  display: flex;
+  justify-content: center;
+}
+
+.submit-form label {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.submit-form form input[type="text"] {
+  align-items: center;
+}
+
+.submit-form form input[type="submit"] {
+  align-items: center;
+  margin-top: 5px;
 }
