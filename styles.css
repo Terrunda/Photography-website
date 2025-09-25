@@ -182,16 +182,22 @@ main {
 }
 
 .regular-photo-grid {
-
+  display:flex;
+  gap: 20px;
 }
 
 .portfolio-card {
-
+  border: 2px solid #e5e5e5;
+  padding: 32px;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.2s ease;
 }
 
 
 .Footer-section {
-  padding: 20px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   border-top: 2px solid #e5e5e5;
 }
 
@@ -208,6 +214,5 @@ main {
 }
 
 .Footer-section p {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
