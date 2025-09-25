@@ -57,8 +57,8 @@ body {
 }
 
 .learn-more-button button:hover {
-  background: #222;
-  color: #fff;
+  background: #1E1E24;
+  color: #FFF8F0;
 }
 
 main {
@@ -76,6 +76,10 @@ main {
   border-radius: 6px;
   padding: 32px;
   transition: box-shadow 0.25s ease;
+}
+
+#About-section:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 #About-section img {
@@ -133,6 +137,10 @@ main {
   transition: box-shadow 0.2s ease;
 }
 
+.Services-list li:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 .Services-list img {
   margin-top: 24px;
   border-radius: 4px;
@@ -150,6 +158,11 @@ main {
 
 .featured-photos {
   margin-bottom: 64px;
+  transition: box-shadow 0.2s ease;
+}
+
+.featured-photo:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .featured-photos h2{
@@ -162,6 +175,7 @@ main {
   gap: 20px;
   grid-template-columns: auto auto auto auto;
 }
+
 
 .featured-photo img {
   width: 100%;
@@ -189,9 +203,15 @@ main {
   padding: 8px 16px;
   border: 2px solid #1E1E24;
   border-radius: 4px;
-  background: rgba(0,0,0,0);
+  background: #FFF8F0;
   margin-bottom: 20px;
   justify-content: right;
+  transition: background 0.25s ease;
+}
+
+#Portfolio button:hover {
+  background: #1E1E24;
+  color: #FFF8F0;
 }
 
 .regular-photo-grid {
@@ -205,6 +225,10 @@ main {
   padding: 32px;
   border-radius: 4px;
   transition: box-shadow 0.2s ease;
+}
+
+.portfolio-card:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .portfolio-card h5 {
