@@ -173,32 +173,47 @@ main {
   margin-bottom: 40px;
 }
 
+#Portfolio h2{
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+
 #Portfolio button {
   padding: 8px 16px;
   border: 2px solid #1E1E24;
   border-radius: 4px;
   background: rgba (0,0,0,0);
   margin-bottom: 20px;
+  justify-content: right;
 }
 
 .regular-photo-grid {
-  display:flex;
+  display: grid;
   gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
 .portfolio-card {
   border: 2px solid #e5e5e5;
   padding: 32px;
   border-radius: 4px;
-  box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.2s ease;
 }
 
+.portfolio-card img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
 
 .Footer-section {
   padding-top: 32px;
   padding-bottom: 32px;
   border-top: 2px solid #e5e5e5;
+}
+
+.Footer-section aside{
+  margin: 32px;
 }
 
 .Contact-information {
@@ -207,12 +222,17 @@ main {
 
 .Contact-information h3 {
   margin-bottom: 5px;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .Contact-information p {
   margin-top: 5px;
+  font-size: 20px;
+  justify-content: left;
 }
 
 .Footer-section p {
+  font-weight: 400px;
   text-align: center;
 }

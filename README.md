@@ -21,7 +21,7 @@ Link: https://www.figma.com/design/b25o0yPaZuhWUuDKNDQWUF/Photography-website-Pr
 ---
 
 ## Copyright
-&copy; 2025 **Terrunda / Terrence Gift**  
+&copy; 2025 Terrence Gift**  
 All Rights Reserved.  
 
 ---
