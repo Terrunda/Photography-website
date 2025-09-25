@@ -180,3 +180,34 @@ main {
   background: rgba (0,0,0,0);
   margin-bottom: 20px;
 }
+
+.regular-photo-grid {
+
+}
+
+.portfolio-card {
+
+}
+
+
+.Footer-section {
+  padding: 20px;
+  border-top: 2px solid #e5e5e5;
+}
+
+.Contact-information {
+  margin-bottom: 40px;
+}
+
+.Contact-information h3 {
+  margin-bottom: 5px;
+}
+
+.Contact-information p {
+  margin-top: 5px;
+}
+
+.Footer-section p {
+  display: flex;
+  justify-content: center;
+}
