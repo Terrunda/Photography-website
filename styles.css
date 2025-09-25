@@ -19,6 +19,7 @@ body {
 .rectangular-frame h1 {
   margin: 0;
   font-size: 32px;
+  color: #111D4A;
 }
 
 .navigators {
@@ -33,7 +34,7 @@ body {
 
 .navigators li a {
   text-decoration: none;
-  color: #333;
+  color: #111D4A;
   font-weight: 500;
   justify-content: left;
   transition: color 0.2s ease;
@@ -41,24 +42,23 @@ body {
 }
 
 
-
 .navigators li a:hover {
-  color: #666;
+  color: #92140C;
 }
 
 .learn-more-button button {
-  border: 1px solid #222;
+  border: 1px solid #FFF8F0;
   padding: 8px 16px;
-  background: transparent;
+  background: #92140C;
   border-radius: 4px;
   cursor: pointer;
   font-weight: 600;
   margin-left: auto;
+  color: #FFF8F0;
 }
 
 .learn-more-button button:hover {
-  background: #1E1E24;
-  color: #FFF8F0;
+  background: #111D4A;
 }
 
 main {
@@ -90,7 +90,8 @@ main {
 #About-section h1 {
   font-size: 36px;
   margin-bottom: 0px;
-  justify-content: left;;
+  justify-content: left;
+  color:#92140C;
 }
 
 #About-section h2 {
@@ -116,6 +117,7 @@ main {
   font-size: 28px;
   margin-bottom: 10px;
   margin-top: 0px;
+  color:#92140C;
 }
 
 .Services p{
@@ -151,6 +153,7 @@ main {
 
 .Services-list h4 {
   margin-bottom: 0px;
+  color: #ffcf99;
 }
 .Services-list p {
   margin-top: 5px;
@@ -168,6 +171,7 @@ main {
 .featured-photos h2{
   font-size: 35px;
   margin-bottom: 24px;
+  color:#92140C
 }
 
 .featured-photo-grid {
@@ -197,6 +201,7 @@ main {
 #Portfolio h2{
   font-size: 35px;
   margin-bottom: 0px;
+  color: #92140C;
 }
 
 #Portfolio button {
@@ -234,6 +239,7 @@ main {
 .portfolio-card h5 {
   font-size: 30px;
   font-weight: 600;
+  color: #ffcf99;
 }
 
 .portfolio-card img {
@@ -246,6 +252,8 @@ main {
   padding-top: 32px;
   padding-bottom: 32px;
   border-top: 2px solid #e5e5e5;
+  background: #111D4A;
+  color: #FFF8F0;
 }
 
 .Footer-section aside{
