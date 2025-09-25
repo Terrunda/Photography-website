@@ -75,7 +75,7 @@ main {
   border: 1px solid #e5e5e5;
   border-radius: 6px;
   padding: 32px;
-  transition: box shadow 0.25s ease;
+  transition: box-shadow 0.25s ease;
 }
 
 #About-section img {
@@ -103,11 +103,15 @@ main {
 
 .Services {
   margin-bottom: 64px;
+  max-width: 1200px;
+  text-align: center;
+  margin: 32px auto;
 }
 
 .Services h3 {
   font-size: 28px;
   margin-bottom: 10px;
+  margin-top: 0px;
 }
 
 .Services p{
@@ -115,15 +119,64 @@ main {
   color: #1E1E24
 }
 
-.Services-list ul {
+.Services-list {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
   list-style: none;
 }
 
 .Services-list li {
-  border: 2px solid #1E1E24;
+  border: 2px solid #e5e5e5;
   padding: 36px;
-  border-radius: 2px;
+  border-radius: 4px;
   transition: box-shadow 0.2s ease;
+}
+
+.Services-list img {
+  margin-top: 24px;
+  border-radius: 4px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.featured-photos {
+  margin-bottom: 64px;
+}
+
+.featured-photos h2{
+  font-size: 35px;
+  margin-bottom: 24px;
+}
+
+.featured-photo-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto auto auto;
+}
+
+.featured-photo img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.featured-photo {
+  border: 2px solid #e5e5e5;
+  border-radius: 4px;
+  padding: 16px;
+  background: #FFF8F0;
+}
+
+#Portfolio {
+  margin-bottom: 40px;
+}
+
+#Portfolio button {
+  padding: 8px 16px;
+  border: 2px solid #1E1E24;
+  border-radius: 4px;
+  background: rgba (0,0,0,0);
+  margin-bottom: 20px;
 }
